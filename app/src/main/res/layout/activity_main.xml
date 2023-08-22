@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/purple_200"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnFragA"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:backgroundTint="#3C401B"
+            android:text="I"
+            android:textColor="#FFA000"
+            android:textStyle="bold"/>
+        <Button
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnFragB"
+            android:layout_weight="1"
+            android:text="II"
+            android:textStyle="bold"
+            android:textColor="#0C22B3"
+            android:layout_margin="4dp"
+            android:backgroundTint="#E91E63"/>
+        <Button
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnFragC"
+            android:layout_weight="1"
+            android:backgroundTint="@color/black"
+            android:layout_margin="4dp"
+            android:textColor="#FF5722"
+            android:textStyle="bold"
+            android:text="III"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/Container">
+
+    </FrameLayout>
+
+
+
+<!--    <fragment-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_weight="1"-->
+<!--        android:id="@+id/frag1"-->
+<!--        tools:ignore="FragmentTagUsage"-->
+<!--        android:name="com.mukeshsah.fragmentexample.AFragment"/>-->
+<!--    <fragment-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_weight="1"-->
+<!--        android:id="@+id/frag2"-->
+<!--        tools:ignore="FragmentTagUsage"-->
+<!--        android:name="com.mukeshsah.fragmentexample.BFragment"/>-->
+
+
+
+
+</LinearLayout>
